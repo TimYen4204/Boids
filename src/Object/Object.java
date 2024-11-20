@@ -4,7 +4,7 @@ import Vector.Vector;
 
 import java.awt.*;
 
-public class Objects extends Vector {
+public class Object extends Vector {
 
     public final int OFFSET = 300;
     public Vector acceleration;
@@ -13,10 +13,11 @@ public class Objects extends Vector {
     public double mass;
     public Color color = Color.white;
 
-    public Objects(double x, double y) {
+    public Object(double x, double y) {
         super(x, y);
     }
 
 
-
+    protected void setFrame(double v, double v1, double x, double y) {
+    }
 }
